@@ -19,6 +19,19 @@ export default function ExerciseListItem({item}) {
       padding: 10,
       borderRadius: 10,
       gap: 5,
+      marginHorizontal: 1,
+
+      //shadow for the containers
+
+      shadowColor: "#000",
+      shadowOffset: {
+	      width: 0,
+	      height: 1,
+      },
+      shadowOpacity: 0.18,
+      shadowRadius: 1.00,
+
+      elevation: 1,
     },
     exerciseName: {
       fontSize: 20,
